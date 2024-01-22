@@ -1,0 +1,37 @@
+.countries{
+    padding: 3rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: auto;
+}
+
+@media screen and (max-width: 528px) {
+    .countries{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (min-width: 528px) {
+    .countries{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .countries{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .countries{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    .countries{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .countries{
+        grid-template-columns: auto auto auto auto;
+    }
+}
